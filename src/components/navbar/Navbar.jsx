@@ -1,12 +1,13 @@
 import React from 'react'
 import './Navbar.css'
+import styles from "../../index.css"
 
 export default function Navbar() {
   
   return (
     
-        <div className='font-bold ListaNav'> 
-        <a href="#" className='font-bold underline'>Logo</a>
+        <div className='ListaNav'> 
+        <a href="#" className='font-bold'>Logo</a>
         <ul className='MainList'>
         <li><a href="#">Home</a></li>
         <li><a href="#">Products</a>
